@@ -1,0 +1,1 @@
+funcion despedir(){ imprimir("Hasta luego");} despedir();

@@ -1,0 +1,2 @@
+
+funcion alumno(nombre) { imprimir(nombre); } variable nombre = "Lucas"; alumno(nombre);
