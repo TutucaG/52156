@@ -16,7 +16,7 @@ definición y ejecución de funciones, transformaciones de cadenas de texto, imp
 ⚠️ No contempla operaciones aritméticas complejas ni estructuras condicionales o de repetición.
 
 
-//ATENCION:
+⚠️ATENCION:
 
  Hay palabras que se llaman en el programa pero despues no se declaran como:
 
