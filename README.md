@@ -53,7 +53,6 @@ Antes de ejecutar el proyecto, asegurate de tener instalado:
 Copiá el link del repositorio y abrí símbolo del sistema. Escribí:
 git clone "pega el link del repositorio"
 
----
 
 ### 2. Opciones para ejecutarlo:
 
