@@ -1,54 +1,61 @@
-Proyecto "Intérprete de textos"
+# Proyecto "Intérprete de textos"
 
 Este proyecto es un analizador sintáctico para un lenguaje personalizado enfocado en declaración de variables, 
 definición y ejecución de funciones, transformaciones de cadenas de texto, impresión y retorno de valores.
 
-🧠 ¿Qué hace el analizador?
+---
 
-✅ Reconoce declaraciones de variables con asignación opcional.
+## 🧠 ¿Qué hace el analizador?
 
-✅ Permite definir funciones con argumentos y un bloque de instrucciones.
-
-✅ Soporta transformaciones de texto como mayúsculas, minúsculas, invertir texto, obtener longitud y reemplazar contenido.
-
-✅ Permite imprimir valores y retornar resultados desde funciones.
+✅ Reconoce declaraciones de variables con asignación opcional.  
+✅ Permite definir funciones con argumentos y un bloque de instrucciones.  
+✅ Soporta transformaciones de texto como mayúsculas, minúsculas, invertir texto, obtener longitud y reemplazar contenido.  
+✅ Permite imprimir valores y retornar resultados desde funciones.  
 
 ⚠️ No contempla operaciones aritméticas complejas ni estructuras condicionales o de repetición.
 
+---
 
-⚠️ATENCION:
+## ⚠️ ATENCIÓN
 
- Hay palabras que se llaman en el programa pero despues no se declaran como:
+Hay palabras que se llaman en el programa pero después no se declaran como:
 
-_ejecucion, variable, numeros, concatenar.
-_concatenar: nunca es llamado por el programa.
-_Se decidio hacer las siguientes derivacions:
-_Ejecucion:
-1-se derivo para poder hacer una llamado a una funcion asi mostrar el resultado en consola.
-2-se derivo hacia impresion para poder mostrar las variables declaradas en consola.
-_Variable: se hizo una derivacion hacia NOMBRE
-_Numeros: de hizo su respecta derivacion a [0-9]+
+- `ejecucion`, `variable`, `numeros`, `concatenar`.  
+- `concatenar`: nunca es llamado por el programa.
 
-//Estas declaraciones fueron consultadas con los profesores antes de hacerlas...
+Se decidió hacer las siguientes derivaciones:
 
+- **Ejecucion**:  
+  1. Se derivó para poder hacer un llamado a una función y mostrar el resultado en consola.  
+  2. Se derivó hacia impresión para poder mostrar las variables declaradas en consola.  
 
- Requisitos para inicializar el interprete:
+- **Variable**: se hizo una derivación hacia `NOMBRE`.  
+- **Números**: se hizo su respectiva derivación a `[0-9]+`.
+
+Estas declaraciones fueron consultadas con los profesores antes de hacerlas...
+
+---
+
+## 🛠 Requisitos para inicializar el intérprete
 
 Antes de ejecutar el proyecto, asegurate de tener instalado:
 
-Node.js, Java (JDK), ANTLR4 Extensión ANTLR4 Grammar Syntax Support en Visual Studio Code (para depurar y ver el árbol)
+- Node.js  
+- Java (JDK)  
+- Extensión ANTLR4 Grammar Syntax Support en Visual Studio Code (para depurar y ver el árbol)
 
- ¿Cómo preparar el proyecto? 
+---
 
-1-Cloná el repositorio: 
+## ⚙️ ¿Cómo preparar el proyecto?
 
-copia el link del repositorio y abri simbolo del sistema y escribi:
+### 1. Cloná el repositorio:
 
+Copiá el link del repositorio y abrí símbolo del sistema. Escribí:
 git clone "pega el link del repositorio"
 
-2-Opciones para ejecutarlo:
+### 2. Opciones para ejecutarlo:
 
-a- Mediante Simbolo del Sistema:
+### a. Mediante el simbolo del sistema:
 
 Para ello abra el buscandor de windows y busque simbolo del sistema y abra el programa
  
@@ -76,8 +83,7 @@ Asi puede hacer con cada uno de los ejemplos.
 
 ✅ Se mostrara el resultado de la traduccion.
 
-
-b-Mediante Visual Studio code:
+### b. Mediante Visual Studio Code:
 
 Abra Visual Studio Code.
 
@@ -107,7 +113,7 @@ Asi puede hacer con cada uno de los ejemplos.
 
 ✅ Se mostrara el resultado de la traduccion.
 
-Opcional: Ver el arbol graficamente(SOLO EN VISUAL STUDIO CODE):
+### Opcional: Ver el arbol graficamente(SOLO EN VISUAL STUDIO CODE):
 Dirijase a input.txt ahi es donde se colocaran los ejemplos.
 Para hacerlo:
 Copie uno de los ejemplos que se encuentra en la carpeta Ejemplos (Ctrl + c) y pegalo en input.txt (Ctrl + v).
@@ -115,6 +121,6 @@ Guarda el ejemplo (Ctrl + s)  y luego proceda a hacer funcionar el programa con 
 Si hay errores se podran en el grafico del arbol marcado con rojo sino estara todo en verde.
 Puede hacer lo mismo para cada uno de los ejemplos.
 
-FIN
+### FIN
 
 
