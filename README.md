@@ -23,8 +23,9 @@ definición y ejecución de funciones, transformaciones de cadenas de texto, imp
 _ejecucion, variable, numeros, concatenar.
 _concatenar: nunca es llamado por el programa.
 _Se decidio hacer las siguientes derivacions:
-_Ejecucion: 1-se derivo para poder hacer una llamado a una funcion asi mostrar el resultado en consola.
-            2-se derivo hacia impresion para poder mostrar las variables declaradas en consola.
+_Ejecucion:
+1-se derivo para poder hacer una llamado a una funcion asi mostrar el resultado en consola.
+2-se derivo hacia impresion para poder mostrar las variables declaradas en consola.
 _Variable: se hizo una derivacion hacia NOMBRE
 _Numeros: de hizo su respecta derivacion a [0-9]+
 
